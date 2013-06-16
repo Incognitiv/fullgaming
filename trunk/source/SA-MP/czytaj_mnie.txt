@@ -9,7 +9,6 @@ Autorzy:
 
 	- Patryk "Shiny" N <shiny@fullgaming.pl>
 	- Wojciech "MSI" Pampuch <msi@fullgaming.pl>
-	- Kamil "AXV" Jarz¹bek <axv@catalystweb.net>
 
 Credits:
 	- Y-Less, Sacky, StrickenKid, DracoBlue, Incognito, Zeex, Fro1sha, Terminator3
