@@ -2,39 +2,26 @@
 	---------------------------------------------------------------------------
 				   FullGaming-AtekByte
 
-Description:
-	
-Legal:
-	Version: MPL 1.1
-	
-	The contents of this file are subject to the Mozilla Public License Version 
-	1.1 (the "License"); you may not use this file except in compliance with 
-	the License. You may obtain a copy of the License at 
-	http://www.mozilla.org/MPL/
-	
-	Software distributed under the License is distributed on an "AS IS" basis,
-	WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-	for the specific language governing rights and limitations under the
-	License.
-	
-	The Original Code is the FullGaming-AtekByte script.
-	
-	The Initial Developer of the Original Code is
-		Patryk "Shiny" N <Shiny@FullGaming.pl>
-		Wojciech "MSI" Pampuch <MSI@FullGaming.pl>		
-		Kamil "AXV" Jarzabek <AXV@FullGaming.pl>
+		FullGaming-AtekByte - GameMode dla serwera SA-MP.
+		Copyright (C) 2013
+			Patryk "Shiny" N <Shiny@FullGaming.pl>,
+			Wojciech "MSI" Pampuch <MSI@FullGaming.pl>,
+			Kamil "AXV" Jarząbek <AXV@FullGaming.pl>
 		
-	Portions created by the Initial Developer are Copyright (C) 2013
-	the Initial Developer. All Rights Reserved.
-		
-	Very special thanks to:
-		Thiadmer - PAWN, whose limits continue to amaze me!
-		Kye/Kalcor - SA:MP.
-		SA:MP Team past, present and future - SA:MP.
-		
-Version:
-	0.1
-	
+		Niniejszy program jest wolnym oprogramowaniem; możesz go 
+		rozprowadzać dalej i/lub modyfikować na warunkach Powszechnej
+		Licencji Publicznej GNU, wydanej przez Fundację Wolnego
+		Oprogramowania - według wersji 2-giej tej Licencji lub którejś
+		z późniejszych wersji. 
+		Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on 
+		użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej 
+		gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH 
+		ZASTOSOWAŃ. W celu uzyskania bliższych informacji - Powszechna 
+		Licencja Publiczna GNU. 
+		Z pewnością wraz z niniejszym programem otrzymałeś też egzemplarz 
+		Powszechnej Licencji Publicznej GNU (GNU General Public License);
+		jeśli nie - napisz do Free Software Foundation, Inc., 675 Mass Ave,
+		Cambridge, MA 02139, USA.	
 	---------------------------------------------------------------------------
  *									 											*/
 
@@ -44,7 +31,7 @@ Version:
  
 #include <a_samp>
 #tryinclude <a_http>
-#include <sscanf> 	// Y_Less 2.8.1
+#include <sscanf2> 	// Y_Less 2.8.1
 #include <mysql> 	// Strickenkid 2.1.1
 #include <regex> 	// Fro1sha
 #include <audio> 	// Incognito
@@ -62,9 +49,7 @@ Version:
 
 #include "scripts\header"
 
-main()
-{
-}
+main();
 
 /**
  * Callbacks
@@ -74,15 +59,17 @@ public OnGameModeInit()
 {
 	print("Wczytywanie konfiguracji danych...");
 	LoadConfiguration();
-	print("Laczenie z baza danych...");
-	if(ConnectToMySQL())
+	print("Próba połączenia z bazą danych...");
+	if(!(ConnectToMySQL()) return print("Nie można nawiązać połączenia!\nSprawdź dane konfiguracyjne."), SendRconCommand("exit"), 0;
+	print("Pomyślnie połączono.");
+	/*if(ConnectToMySQL())
 	{
 		print(" Polaczono z baza danych!");
 	} else {
 		print(" Nie mozna nawiazac polaczenia!\n Sprawdz dane konfiguracyjne!!!");
 		SendRconCommand("exit");
 		return 0;
-	}
+	}*/
 	
 	print("Konfigurowanie ustawien glownych");
 	EnableStuntBonusForAll(false);
