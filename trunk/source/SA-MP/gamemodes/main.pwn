@@ -62,14 +62,6 @@ public OnGameModeInit()
 	print("Próba połączenia z bazą danych...");
 	if(!(ConnectToMySQL()) return print("Nie można nawiązać połączenia!\nSprawdź dane konfiguracyjne."), SendRconCommand("exit"), 0;
 	print("Pomyślnie połączono.");
-	/*if(ConnectToMySQL())
-	{
-		print(" Polaczono z baza danych!");
-	} else {
-		print(" Nie mozna nawiazac polaczenia!\n Sprawdz dane konfiguracyjne!!!");
-		SendRconCommand("exit");
-		return 0;
-	}*/
 	
 	print("Konfigurowanie ustawien glownych");
 	EnableStuntBonusForAll(false);
@@ -86,7 +78,7 @@ public OnGameModeInit()
 	
 	print("Tworzenie klas graczy...");
 	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
-	for(new skinid = 1; skinid <= 298; skinid++)
+	for(new skinid = 0; skinid <= 299; skinid++)
 	{
 		AddPlayerClass(skinid, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
 	}
