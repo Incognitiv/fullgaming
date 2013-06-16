@@ -8,7 +8,7 @@ Autorzy:
 ===================================
 
 	- Patryk "Shiny" Niedzielski <shiny@fullgaming.pl>
-	- Wojciech "MSI" Pampuch <msiI@fullgaming.pl>
+	- Wojciech "MSI" Pampuch <msi@fullgaming.pl>
 	- Kamil "AXV" Jarz¹bek <axv@catalystweb.net>
 
 Credits:
@@ -47,7 +47,7 @@ na serwer MySQL. Konfiguracja danych MySQL znajduje sie pliku
 SA-MP/scriptfules/AtekByte/settings/mysql.cfg. Haslo do bazy danych musi byc "zaszyfrowane"
 algorytmem whirlpool w przeciwnym wypadku nie polaczysz sie z baza danych.
 
-Haslo RCON podane w plikju server.cfg musi byc zaszyfrowane algorytmem whirlpool.
+Haslo RCON podane w pliku server.cfg musi byc zaszyfrowane algorytmem whirlpool.
 
 Hasla graczy szyfrowane sa za pomoca funkcji SHA2(sol+login+sol+sol), dzieki czemu
 sa nie do zlamiania za pomoca np. rainbow tables. Sol generowana jest losowo (8 znakow np. abcdef12) 
