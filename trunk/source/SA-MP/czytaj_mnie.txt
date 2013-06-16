@@ -1,1 +1,64 @@
-Zachowaj pierwotn¹ strukturê katalogów. Ca³a paczka serwera jest udostêpniona w taki sposób, aby uruchomiæ go poprawnie na Windowsie.
+###################################
+#				  #
+#	    AtekByte              #
+#				  #
+###################################
+
+Autorzy:
+===================================
+
+	- Patryk "Shiny" Niedzielski <shiny@fullgaming.pl>
+	- Wojciech "MSI" Pampuch <msiI@fullgaming.pl>
+	- Kamil "AXV" Jarz¹bek <axv@catalystweb.net>
+
+Credist:
+	- Y-Less, Sacky, StrickenKid, DracoBlue, Incognito, Zeex, Fro1sha, Terminator3
+
+
+
+Licencja:
+===================================
+
+Licencja: GNU GPL 3.0
+
+Pelny tekst licencji: http://www.gnu.org/licenses/gpl.html
+
+Uwagi:
+===================================
+
+Wymogi:
+===================================
+
+Jakies wymogi?
+
+
+Kompilacja + kilka uwag:
+===================================
+
+System kompilacji zostal przygotowany do uruchamiania na komputerze z Windowsem
+z kompilatorem PAWN odpalanym przez BATCH (.bat).
+
+W katalogu compiler znajduje sie skrypt make.bat, ktory dokonuje aktualizacji
+plikow z wersja gamemodu, wykonuje kompilacje gamemodu i jesli ta sie powiedzie,
+przesyla plik na FTP (o tym pozniej).
+
+W katalogu SA-MP/schema/ znajduje sie struktura bazy danych, ktora nalezy wgrac 
+na serwer MySQL. Konfiguracja danych MySQL znajduje sie pliku
+SA-MP/scriptfules/AtekByte/settings/mysql.cfg. Haslo do bazy danych musi byc "zaszyfrowane"
+algorytmem whirlpool w przeciwnym wypadku nie polaczysz sie z baza danych.
+
+Haslo RCON podane w plikju server.cfg musi byc zaszyfrowane algorytmem whirlpool.
+
+Hasla graczy szyfrowane sa za pomoca funkcji SHA2(sol+login+sol+sol), dzieki czemu
+sa nie do zlamiania za pomoca np. rainbow tables. Sol generowana jest losowo (8 znakow np. abcdef12) 
+przy rejestracji konta.
+
+Poziomy administracji:
+	1 - moderator
+ 	2 - administrator (poziom 1)
+	2 - administrator (poziom 2)
+	3 - administrator (poziom 3)
+	4 - administrator (poziom 4 RCON)
+
+Administratorzy poziomu 4 - RCON, aby sie zalogowac musza posiadac w bazie danych level rowny 4.
+
