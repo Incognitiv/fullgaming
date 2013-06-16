@@ -11,7 +11,7 @@ Autorzy:
 	- Wojciech "MSI" Pampuch <msiI@fullgaming.pl>
 	- Kamil "AXV" Jarz¹bek <axv@catalystweb.net>
 
-Credist:
+Credits:
 	- Y-Less, Sacky, StrickenKid, DracoBlue, Incognito, Zeex, Fro1sha, Terminator3
 
 
