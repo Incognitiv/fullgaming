@@ -1,0 +1,1 @@
+Zachowaj pierwotn¹ strukturê katalogów. Ca³a paczka serwera jest udostêpniona w taki sposób, aby uruchomiæ go poprawnie na Windowsie.
