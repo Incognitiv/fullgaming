@@ -6,18 +6,16 @@
 ###################################################
 
 Wysoki priorytet:
- DODAC:
- USUNAC:
- POPRAWIC:
+ DODAC: NIC
+ USUNAC: WSZYSTKO
+ POPRAWIC: PO CO
 
 Sredni priorytet:
- DODAC:
- USUNAC:
- POPRAWIC:
-
+ DODAC: NIC
+ USUNAC: WSZYSTKO
+ POPRAWIC: PO CO
 
 Najmniejszy priorytet:
- DODAC:
- USUNAC:
- POPRAWIC:
-
+ DODAC: NIC
+ USUNAC: WSZYSTKO
+ POPRAWIC: PO CO
