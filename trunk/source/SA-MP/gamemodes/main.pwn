@@ -20,7 +20,7 @@ Legal:
 	The Original Code is the FullGaming-AtekByte script.
 	
 	The Initial Developer of the Original Code is
-		Patryk "Shiny" Niedzielski <Shiny@FullGaming.pl>
+		Patryk "Shiny" N <Shiny@FullGaming.pl>
 		Wojciech "MSI" Pampuch <MSI@FullGaming.pl>		
 		Kamil "AXV" Jarzabek <AXV@FullGaming.pl>
 		
