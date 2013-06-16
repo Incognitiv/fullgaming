@@ -60,7 +60,7 @@ public OnGameModeInit()
 	print("Wczytywanie konfiguracji danych...");
 	LoadConfiguration();
 	print("Próba połączenia z bazą danych...");
-	if(!(ConnectToMySQL()) return print("Nie można nawiązać połączenia!\nSprawdź dane konfiguracyjne."), SendRconCommand("exit"), 0;
+	if(!(ConnectToMySQL())) return print("Nie można nawiązać połączenia!\nSprawdź dane konfiguracyjne."), SendRconCommand("exit"), 0;
 	print("Pomyślnie połączono.");
 	
 	print("Konfigurowanie ustawien glownych");
