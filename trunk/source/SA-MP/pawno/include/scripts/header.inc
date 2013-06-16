@@ -339,7 +339,7 @@ stock const
 		"\t- Mo¿liwoœæ pisania specjalnych og³oszeñ\n",
 		"\t- Pisanie na prywatnym czacie VIP-ów\n",
 		"\t- Cena broni w sklepie o pó³owê mniejsza\n",
-		"\t- KORZD pojazdów tañszy o 25 procent\n", // 2013-06-16 21:00:14 :: MalinowyKox XD
+		"\t- Koszt pojazdów tañszy o 25 procent\n", // 2013-06-16 21:00:14 :: MalinowyKox XD
 		"\t- Dwa razy wiêksza kasa za biznes\n",
 		"\t- Dwa razy wiêcej EP za atrakcje/eventy\n",
 		"\t- Reszta w trakcie pisania...\n"
