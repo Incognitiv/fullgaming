@@ -7,7 +7,7 @@
 Autorzy:
 ===================================
 
-	- Patryk "Shiny" Niedzielski <shiny@fullgaming.pl>
+	- Patryk "Shiny" N <shiny@fullgaming.pl>
 	- Wojciech "MSI" Pampuch <msi@fullgaming.pl>
 	- Kamil "AXV" Jarz¹bek <axv@catalystweb.net>
 
