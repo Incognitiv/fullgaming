@@ -1,0 +1,24 @@
+<meta>
+	<script src="accounts.lua"/>
+	<script src="accounts_c" type="client"/>
+	
+	<script src="afk"/>
+	<script src="afk_c" type="client"/>
+	
+	<script src="ids_c" type="client"/>
+	<export function="getPlayerID"/>
+	<export function="getIDFromName"/>
+	
+	<script src="skins.lua"/>
+	<script src="skins.lua" type="client"/>
+	
+	<export function="getSkins"/>
+	<export function="getSkins" type="client"/>
+	
+	<export function="isValidSkin"/>
+	<export function="isValidSkin" type="client"/>
+	
+	<include resource="fg-sql"/>
+	<include resource="fg-gui"/>
+	
+</meta>
