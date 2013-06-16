@@ -275,7 +275,7 @@ stock const
 		"Administator #1",
 		"Administator #2",
 		"Administator #3",
-		"Administator #4",
+		"Administator #4"//,
 	},
 	adminRankName_ENG[MAX_ADMIN_LEVEL-1][16] =
 	{
@@ -284,7 +284,7 @@ stock const
 		"Administator #1",
 		"Administator #2",
 		"Administator #3",
-		"Administator #4",
+		"Administator #4"//,
 	},
 	weapons_PL[][e_WEAPONS_DATA] =
 	{
