@@ -1,0 +1,19 @@
+StartDate = 29.04
+WaWer[HA] = 16
+Xenox[BBT] = 1
+[GS]Xerxes[HA] = 1
+
+[GS]
+WaWer[HA] = 30
+
+[GS]
+WaWer[HA] = 20
+
+[GS]
+WaWer[HA] = 10
+
+[GS]
+WaWer[HA] = 0
+
+[GS]
+RedCode=18

@@ -1,0 +1,21 @@
+###################################################
+		
+		  AtekByte
+			TODO-LIST
+
+###################################################
+
+Wysoki priorytet:
+ DODAC: NIC
+ USUNAC: WSZYSTKO
+ POPRAWIC: PO CO
+
+Sredni priorytet:
+ DODAC: NIC
+ USUNAC: WSZYSTKO
+ POPRAWIC: PO CO
+
+Najmniejszy priorytet:
+ DODAC: NIC
+ USUNAC: WSZYSTKO
+ POPRAWIC: PO CO
