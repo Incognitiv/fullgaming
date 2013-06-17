@@ -1,0 +1,7 @@
+;
+;	FullGaming - AtekByte
+;  		Polish translations
+;
+
+0:TestPolish
+1:Test1Polish
